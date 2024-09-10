@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define offset_of(type, member) ((unsigned long)(&(((type *)0)->member)))
-
-#define container_of(ptr, type, member)                                        \
-  ((type *)((unsigned long)(ptr)-offset_of(type, member)))
-
 struct shape {
   const char *name;
   struct shape_op *sops;

@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC=gcc$/;"	m
+Shape	oop.h	/^typedef struct shape Shape;$/;"	t	typeref:struct:shape
+ShapeOp	oop.h	/^typedef struct shape_op ShapeOp;$/;"	t	typeref:struct:shape_op
+Square	oop.h	/^typedef struct square Square;$/;"	t	typeref:struct:square
+Triangle	oop.h	/^typedef struct triangle Triangle;$/;"	t	typeref:struct:triangle
+a	oop.h	/^    int a,b,c;$/;"	m	struct:triangle
+a	oop.h	/^    int a;$/;"	m	struct:square
+area	oop.h	/^    float (*area)(Shape*);$/;"	m	struct:shape_op
+b	oop.h	/^    int a,b,c;$/;"	m	struct:triangle
+base	oop.h	/^    Shape* base;$/;"	m	struct:square
+base	oop.h	/^    Shape* base;$/;"	m	struct:triangle
+c	oop.h	/^    int a,b,c;$/;"	m	struct:triangle
+container_of	oop.h	6;"	d
+name	oop.h	/^    char* name;$/;"	m	struct:shape
+offset_of	oop.h	4;"	d
+shape	oop.h	/^struct shape{$/;"	s
+shape_op	oop.h	/^struct shape_op{$/;"	s
+sops	oop.h	/^    ShapeOp* sops;$/;"	m	struct:shape
+square	oop.h	/^struct square{$/;"	s
+triangle	oop.h	/^struct triangle{$/;"	s
